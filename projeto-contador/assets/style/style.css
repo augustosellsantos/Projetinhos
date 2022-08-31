@@ -58,15 +58,29 @@ header h1 {
     height: 6rem;
     border-radius: .8rem;
     font-size: 4.5rem;
+    background-color: var(--cor4);
+    color: var(--corA);
+    border: none;
+    text-align: center;
 }
 button {
     cursor: pointer;
 }
+#container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#minus {
+    font-size: 5rem;
+    
+}
+#plus {
+    font-size: 5rem;
+}
 #container button i {
-    position: absolute;
-    font-size: 3.5rem;
-    right: 5%;
-    top: 2%;
+    font-size: 6rem;
 }
 footer {
     background-color: var(--cor4);
