@@ -71,16 +71,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#minus {
-    font-size: 5rem;
-    
-}
-#plus {
-    font-size: 5rem;
+    position: relative;
 }
 #container button i {
-    font-size: 6rem;
+    font-size: 3rem;
+    position: absolute;
 }
 footer {
     background-color: var(--cor4);
